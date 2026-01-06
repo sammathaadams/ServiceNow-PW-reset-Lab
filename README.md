@@ -3,7 +3,7 @@ This lab uses a ServiceNow Developer Instance to simulate a user password reset 
 # ServiceNow Password Reset Simulation (Active Directory)
 
 Watch me complete this lab here! 
-<img width="1545" height="976" alt="AD lab" src="https://github.com/user-attachments/assets/098c5148-71db-404a-9117-7bc6cf7a40fb" /> https://www.loom.com/share/b3792043bfe7432e95a9bede523e73ec
+ https://www.loom.com/share/b3792043bfe7432e95a9bede523e73ec
 
 ---
 
@@ -37,18 +37,25 @@ The ticket is reviewed to confirm:
 
 Relevant details are documented in the incident record.
 
----
+![Password Reset ticket ](https://github.com/user-attachments/assets/9a6ab617-2be1-4f90-a249-050289ccb18e)
 
+---
 ### 3. Active Directory Password Reset
 Using Active Directory Users and Computers:
 - The affected user account is located
 - The password is reset according to security policy
 - Options such as “User must change password at next logon” are applied if required
+  
+![Pw reset ](https://github.com/user-attachments/assets/deacb0bb-1694-4f3e-be32-2e10d3f495e7)
+
+![pw changed confirmation](https://github.com/user-attachments/assets/b9317e64-a9c9-486b-adf3-87508526dd8c)
 
 ---
 
 ### 4. User Communication
 The user is notified that their password has been reset and provided with next-step instructions, following secure communication guidelines.
+
+![ticket updates ](https://github.com/user-attachments/assets/7d1851f5-4727-42fd-8678-94ebddba289a)
 
 ---
 
@@ -59,6 +66,8 @@ The ServiceNow ticket is updated with:
 - Confirmation of restored access
 
 The incident is then resolved and closed.
+
+![ticket resolved ](https://github.com/user-attachments/assets/07486452-f5cd-4dab-9489-d6f194aa2bb2)
 
 ---
 
